@@ -1,0 +1,175 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lyla_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="24sp"
+        android:text="Lyla" />
+
+    <TextView
+        android:id="@+id/me_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/lyla_text_view"
+        android:textSize="24sp"
+        android:text="Me" />
+
+    <TextView
+        android:id="@+id/natalie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Natalie"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/me_text_view"
+/>
+
+    <TextView
+        android:id="@+id/jennie_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:text="Jennie" />
+
+    <TextView
+        android:id="@+id/omoju_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/jennie_text_view"
+        android:textSize="24sp"
+        android:text="Omoju" />
+
+    <TextView
+        android:id="@+id/amy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@id/jennie_text_view"
+        android:textSize="24sp"
+        android:text="Amy" />
+
+    <TextView
+        android:id="@+id/ben_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="Ben" />
+
+    <TextView
+        android:id="@+id/kunal_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/ben_text_view"
+        android:textSize="24sp"
+        android:text="Kunal" />
+
+    <TextView
+        android:id="@+id/kagure_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textSize="24sp"
+        android:text="Kagure" />
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/red"
+    >
+    <TextView
+        android:text="welcome to club"
+        android:textSize="50sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/welcome_text"
+        android:layout_alignParentTop="true"
+        />
+       <Textview
+android:text="we are here to educate people"
+android:textSize="35sp"
+android:textColor="@android:color/white"
+android:id="@+id/prompt"
+/> 
+<ImageView
+          android:src="@drawable/ocean"
+          
+/>
+       </RelativeLayout>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1c4d7e"
+    android:id="@+id/lay"
+    >
+    <ImageView
+        android:src="@drawable/rainbow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+   
+     <TextView
+        android:text="welcome to club"
+        android:textSize="50sp"
+        android:textColor="@android:color/white"
+        android:id="@+id/welcome_text"
+        android:layout_alignParentTop="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+         
+        
+        />
+    
+    <TextView
+        android:text="process to regster to be a member of community"
+        android:background="#28b867"
+         android:id="@+id/first_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome_text"
+        android:textSize="30sp"
+        android:layout_weight="1"
+        
+        
+    /> 
+    
+       <TextView
+        android:text="see copitition we have organised"
+        android:background="#c8592c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_text"
+        android:textSize="30sp"
+        
+    /> 
+       
+
+         <TextView
+        android:text="by yash"
+        android:background="#c8592c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+               android:layout_alignParentRight="true"
+             android:layout_alignParentBottom="true"
+        android:textSize="30sp"
+        
+    /> 
+       
+    
+        
+        </RelativeLayout>
